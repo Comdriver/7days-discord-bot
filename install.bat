@@ -8,7 +8,7 @@ REM Upgrade pip to latest version
 python -m pip install --upgrade pip
 
 REM Install the required modules
-python -m pip install discord telnetlib3 python-dotenv
+python -m pip install discord python-dotenv
 
 echo Done installing modules.
 pause

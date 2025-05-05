@@ -1,8 +1,8 @@
-# 🧟‍♂️ 7 Days to Die Discord Bot
+# 🧟‍♂️ Zombie Alert - 7 Days to Die Discord Bot
 
    WORK IN PROGRESS
 
-This is a Discord bot for the game **7 Days to Die** that helps monitor and manage your dedicated game server.  
+Zombie Alert is a Discord bot for the game **7 Days to Die** that helps monitor and manage your dedicated game server.  
 It can read server logs, announce in-game events to Discord, and provide admin commands through chat.
 
 ---
@@ -67,7 +67,7 @@ It can read server logs, announce in-game events to Discord, and provide admin c
 
 4. **Configure the bot**
 
-   - Create `bot.env` file or copy `sample_bot.env` file to `bot.env`
+   - Create `bot.env` file or copy `sample.bot.env` file to `bot.env`
    - Set your Discord bot token, log file path, and other settings
 
 | ENV | Required | Description | Default value |
@@ -84,6 +84,7 @@ It can read server logs, announce in-game events to Discord, and provide admin c
 | `DISCORD_TOKEN` | ✔ | Your discord bot token, you can generate one here | |
 | `DISCORD_PREFIX` | | Prefix for discord commands, like `!` in `!status` | ! |
 | `DISCORD_CHANNEL` | | Channel for the bot to output some server information, like server status or ingame chat. Can be set up after bot launch by using `setchannel` command | |
+| `TELNET_HOST` | | Address for your game server telnet | 127.0.0.1 |
 | `BM_START_TIME` | | Time of the day, when Bloodmoon STARTS on your server | 22:00 |
 | `BM_END_TIME` | | Time of the day, when Bloodmoon ENDS on your server | 04:00 |
 

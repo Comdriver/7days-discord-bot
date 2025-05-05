@@ -18,25 +18,25 @@ It can read server logs, announce in-game events to Discord, and provide admin c
 
 ## 🛠️ Commands
 
-| Command | Description | Admin Only |
-|--------|-------------|---|
-| `!backup` | Makes a backup of the saved world (WORK IN PROGRESS) | ✔ |
-| `!banlist` | Shows the list of banned players | |
-| `!bloodmoon` | Shows the next blood moon day and time left | |
-| `!playerban` | Bans a player from the server | ✔ |
-| `!playerkick` | Kicks a player from the server | ✔ |
-| `!players` | Shows all the players online | |
-| `!players all` | With additional paramenters, shows all the registered players on the server, online and offline | |
-| `!playerunban` | Removes player from the banned list | ✔ |
-| `!playerwhois` | Shows detailed information about specified player (WORK IN PROGRESS) | ✔ |
-| `!reboot` | Reboots the game server (WORK IN PROGRESS) | ✔ |
-| `!saveworld` | Saves the current state of world to a drive | ✔ |
-| `!say` | Sends a message to the game chat | ✔ |
-| `!serverstart` | Starts the game serer, if it is offline (WORK IN PROGRESS) | ✔ |
-| `!setchannel` | Sets the current channel for the bot as a channel for information output | ✔ |
-| `!shutdown` | Shuts down the game server (WORK IN PROGRESS) | ✔ |
-| `!status` | Shows the game server current status, including autoshutdown time if servertools mod installed and configured for autoshutdown | |
-| `!time` | Shows current ingame time and date | |
+| Command             | Description                                                                                   | Admin Only |
+|---------------------|-----------------------------------------------------------------------------------------------|------------|
+| <code>!backup</code>        | Creates a backup of the current world (WORK IN PROGRESS)                                         | ✔          |
+| <code>!banlist</code>       | Displays the list of banned players                                                              |            |
+| <code>!bloodmoon</code>     | Shows when the next blood moon will occur and how much time is left                             |            |
+| <code>!playerban</code>     | Bans a specified player from the server                                                          | ✔          |
+| <code>!playerkick</code>    | Kicks a player from the server                                                                   | ✔          |
+| <code>!players</code>       | Lists players currently online                                                                   |            |
+| <code>!players&nbsp;all</code> | Shows all registered players (online and offline) with extra details                          |            |
+| <code>!playerunban</code>   | Removes a player from the ban list                                                               | ✔          |
+| <code>!playerwhois</code>   | Displays detailed info about a specific player (WORK IN PROGRESS)                                | ✔          |
+| <code>!reboot</code>        | Restarts the game server (WORK IN PROGRESS)                                                      | ✔          |
+| <code>!saveworld</code>     | Saves the current state of the world                                                             | ✔          |
+| <code>!say</code>           | Sends a message to the in-game chat                                                              | ✔          |
+| <code>!serverstart</code>   | Starts the server if it is offline (WORK IN PROGRESS)                                            | ✔          |
+| <code>!setchannel</code>    | Sets the current Discord channel as the bot's output channel                                     | ✔          |
+| <code>!shutdown</code>      | Shuts down the game server (WORK IN PROGRESS)                                                    | ✔          |
+| <code>!status</code>        | Displays the server's current status and autoshutdown info (if servertools mod installed and configured for autoshutdown) |            |
+| <code>!time</code>          | Shows the current in-game time and date                                                         |            |
 
 
 ---

@@ -90,7 +90,7 @@ It can read server logs, announce in-game events to Discord, and provide admin c
 5. **Run the bot**
 
       ```bash
-      python bot.py
+      python 7daysbot.py
       ```
 
 ---

@@ -5,6 +5,8 @@
 Zombie Alert is a Discord bot for the game **7 Days to Die** that helps monitor and manage your dedicated game server.  
 It can read server logs, announce in-game events to Discord, and provide admin commands through chat.
 
+If [SERVERTOOLS](https://bitbucket.org/obsessive-coder/sevendaystodie-servertools/src/core/) are installed on the server, bot can utilize some of the SERVERTOOLS commands.
+
 ---
 
 ## 📜 Features
@@ -45,7 +47,21 @@ It can read server logs, announce in-game events to Discord, and provide admin c
 
 0. **Create a Discord bot in Discrod**
 
-   WORK IN PROGRESS
+   1. Go to the Developer Portal
+      - Visit: [https://discord.com/developers/applications](https://discord.com/developers/applications)
+      - Log in with your Discord account if needed.
+   2. Create a New Application
+      - Click the "New Application" button (top right).
+      - Give your bot a name (this will be its display name).
+      - Click "Create".
+   3. Create the Bot
+      - In the left sidebar, go to the “Bot” section.
+      - Click “Add Bot”, then “Yes, do it!” to confirm.
+      - (Optional) Set a profile picture or name for your bot.
+   4. Get the Bot Token
+      - Still in the “Bot” section, click “Reset Token” or “Copy” under Token.
+      - Save the token somewhere safe – you’ll use it in your bot configuration.
+      - ⚠️ Never share it! It gives full control of your bot.
 
 1. **Install Python**
 
@@ -93,6 +109,21 @@ It can read server logs, announce in-game events to Discord, and provide admin c
       ```bash
       python 7daysbot.py
       ```
+
+6. **Add the bot to your server**
+
+   1. Go to the Developer Portal again
+      - Visit: [https://discord.com/developers/applications](https://discord.com/developers/applications)
+      - Log in with your Discord account if needed.
+   2. Go to the “OAuth2 > URL Generator”
+      - In the left sidebar, go to “OAuth2” > “URL Generator”.
+   3. Generate an Invite Link
+      - Under Scopes, check: bot
+      - Under Bot Permissions, check what your bot will need: Send Messages, Embed Links, Read MEssage History, Mention Everyone
+      - Copy the generated URL at the bottom.
+   4. Invite the Bot to Your Server
+      - Paste the URL into your browser and choose a server you manage.
+      - Click “Authorize” and complete the CAPTCHA.
 
 ---
 

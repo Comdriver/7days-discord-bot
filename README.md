@@ -7,6 +7,9 @@ It can read server logs, announce in-game events to Discord, and provide admin c
 
 If [SERVERTOOLS](https://bitbucket.org/obsessive-coder/sevendaystodie-servertools/src/core/) are installed on the server, bot can utilize some of the SERVERTOOLS commands.
 
+This bot currently is only tested on game server version A21, but in theory should work on latest game versions.
+When I can, I will to tests with the latest game version and make a note here.
+
 ---
 
 ## 📜 Features
@@ -119,11 +122,23 @@ If [SERVERTOOLS](https://bitbucket.org/obsessive-coder/sevendaystodie-servertool
       - In the left sidebar, go to “OAuth2” > “URL Generator”.
    3. Generate an Invite Link
       - Under Scopes, check: bot
-      - Under Bot Permissions, check what your bot will need: Send Messages, Embed Links, Read MEssage History, Mention Everyone
+      - Under Bot Permissions, check what your bot will need: Send Messages, Embed Links, Read Message History, Mention Everyone.
       - Copy the generated URL at the bottom.
    4. Invite the Bot to Your Server
       - Paste the URL into your browser and choose a server you manage.
       - Click “Authorize” and complete the CAPTCHA.
+
+7. **Select channel for the bot notifications and ingame chat**
+
+   When in the channel you want to have all the bot notifications and ingame chat, just use this command:
+
+      ```bash
+      !setchannel
+      ```
+   Or enter your channel ID manually in the `bot.env` file as
+      ```bash
+      DISCORD_CHANNEL = YOUR_DISCORD_CHANNEL_ID
+      ```
 
 ---
 
@@ -135,6 +150,8 @@ If [SERVERTOOLS](https://bitbucket.org/obsessive-coder/sevendaystodie-servertool
 
 ## LICENSE
 
-   WORK IN PROGRESS
+   This product is licensed under the Apache License, Version 2.0.
 
+   ZOD Code Elecronics
+   Copyright 2025, Val Comdriver
 

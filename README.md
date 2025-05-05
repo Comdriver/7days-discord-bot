@@ -18,6 +18,8 @@ It can read server logs, announce in-game events to Discord, and provide admin c
 
 ## 🛠️ Commands
 
+<div style="overflow-x: auto">
+
 | Command             | Description                                                                                   | Admin Only |
 |---------------------|-----------------------------------------------------------------------------------------------|------------|
 | <code>!backup</code>        | Creates a backup of the current world (WORK IN PROGRESS)                                         | ✔          |
@@ -38,6 +40,7 @@ It can read server logs, announce in-game events to Discord, and provide admin c
 | <code>!status</code>        | Displays the server's current status and autoshutdown info (if servertools mod installed and configured for autoshutdown) |            |
 | <code>!time</code>          | Shows the current in-game time and date                                                         |            |
 
+</div>
 
 ---
 
@@ -56,6 +59,8 @@ It can read server logs, announce in-game events to Discord, and provide admin c
 
    ```bash
    git clone https://git.zodcode.tech/ZODCODE/7days-discord-bot.git
+    ```
+     ```bash
    cd your-bot-repo
    ```
 
